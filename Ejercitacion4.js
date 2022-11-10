@@ -75,4 +75,110 @@ cumplimos con informarle que se ha ajustado el total a pagar, que será de $1440
      + 'por mes tendrán un aumento del ' + porcentajeIncremento + '%'
     + 'cumplimos con informarle que se ha ajustado el total a pagar, que será de ' + pagoFinal) */
 
-    
+   /*  Micro desafío 3: */
+
+/*     Instrucciones
+1. En la carpeta ya creada crea un nuevo archivo JavaScript (.js).
+2. Desarrollar el programa traductor condicional. La idea es que si el usuario ingresa
+una palabra como “perro”, “gato”, “puerta”, “ventana”, o “mesa”, se le devuelva la
+misma palabra traducida al idioma inglés. Te recomendamos usar la estructura
+switch. Puedes ayudarte con Google Traductor.
+En caso de que la palabra sea distinta a la esperada, deberás mostrar al usuario un mensaje
+que le informe que “La palabra ingresada es incorrecta”. */
+
+/*     let palabraEs = 'perro';
+
+switch (palabraEs) {
+    case 'perro':
+        console.log('dog');        
+        break;
+    case 'gato':
+        console.log('cat');        
+        break;
+    case 'puerta':
+        console.log('door');        
+        break;
+    default:
+        console.log('La palabra ingresada es incorrecta');
+} */
+
+/* Micro desafío 4: */
+/* Instrucciones
+1. En la carpeta ya creada, crea un nuevo archivo JavaScript (.js).
+2. Desarrollar el programa mi primera calculadora. Queremos que, usando estructura
+switch, muestres al usuario cuál es el resultado de una operación aritmética. Esto se
+hará en base a dos valores suministrados y al tipo de operación indicada:
+“sumar”, “restar”, “multiplicar”, “dividir”.
+Por ejemplo: si el usuario indica que quiere sumar los valores 2 y 2, entonces la
+respuesta al usuario debe ser: “El resultado de sumar 2 + 2 es 4”.
+3. En caso de que la operación aritmética sea distinta a la esperada, deberás mostrarle
+un mensaje al usuario que le informe que “Las operaciones aceptadas son: sumar
+- restar- multiplicar- dividir”.
+A continuación te dejamos un diagrama de flujo, para que te des una idea de la lógica que
+podemos encontrar en una calculadora. Recordá igualmente que en tu caso debes usar la
+estructura switch */
+
+/* let numero1 = 6;
+
+let numero2 = 2;
+
+let operador = '.'
+
+let suma = numero1 + numero2;
+
+let resta = numero1 - numero2;
+
+let multiplicar = numero1 * numero2;
+
+let dividir = numero1 / numero2;
+
+switch (operador) {
+    case '+':
+        console.log(suma);        
+        break;
+    case '-':
+        console.log(resta);        
+        break;
+    case '*':
+        console.log(multiplicar);             
+        break;    
+    case '/':
+    console.log(dividir);        
+    break;        
+    default:
+        console.log('Las operaciones aceptadas son: sumar - restar- multiplicar- dividir');
+} */
+
+/* Desafío extra (opcional): */
+
+/* Instrucciones
+Si llegaste hasta acá, estás avanzando muy bien. ¡Felicitaciones!
+
+Si querés seguir practicando, te proponemos este otro ejercicio. Ten en cuenta que este
+ejercicio puede escalar en dificultad.
+
+Paciencia, trata de resolverlo con las herramientas que tengas a tu disposición. Te
+recomendamos que busques información extra en Google o documentaciones que
+conozcas.
+
+1. En la carpeta ya creada, crear un nuevo archivo JavaScript (.js).
+2. Desarrolla el programa aterrizar avión. Nos indicará si el avión está listo para iniciar
+el aterrizaje o no. Considerará para ello la altura y la velocidad del vuelo, teniendo en
+cuenta que:
+
+● La velocidad debe estar comprendida entre 268 a 278 km/hr.
+● La altura debe estar comprendida entre 150 m a 300 m. */
+
+let velocidad = 280;
+
+let altura = 170;
+
+let velocidadIdeal = 268 < 278;
+
+let alturaIdeal = 150 < 300;
+
+if(velocidad == velocidadIdeal && altura == alturaIdeal){
+    console.log('Apto para volar')}
+    else {
+        console.log ('No apto para volar')
+    }
