@@ -169,16 +169,10 @@ cuenta que:
 ● La velocidad debe estar comprendida entre 268 a 278 km/hr.
 ● La altura debe estar comprendida entre 150 m a 300 m. */
 
-let velocidad = 280;
+/* let velocidad = 270;
 
-let altura = 170;
+let altura = 160;
 
-let velocidadIdeal = 268 < 278;
+let apto = (268< velocidad && velocidad < 278) && (150 < altura && altura < 300) ? 'Apto para volar' : 'No apto para volar';
 
-let alturaIdeal = 150 < 300;
-
-if(velocidad == velocidadIdeal && altura == alturaIdeal){
-    console.log('Apto para volar')}
-    else {
-        console.log ('No apto para volar')
-    }
+console.log (apto) */
